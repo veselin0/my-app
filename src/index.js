@@ -17,9 +17,9 @@ const MyApp = () => {
             <h1>Gocho</h1>
             <p>The Prophet of React</p>
             <ul>
-                <li>Titan</li>
-                <li>Saturn</li>
-                <li>Mars</li>
+                <li>Titano</li>
+                <li>Sputnik</li>
+                <li>Mars&Co</li>
             </ul>
         </div>
     );
