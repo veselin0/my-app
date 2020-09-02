@@ -2,6 +2,6 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <footer>This is Gicho's footer element</footer>
+        <footer>Gocho's Footer of the Doom</footer>
     );
 }
