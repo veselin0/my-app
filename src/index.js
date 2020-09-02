@@ -14,13 +14,13 @@ import ReactDOM from "react-dom";
 const MyApp = () => {
     return (
         <div>
-            <h1>Gocho</h1>
-            <p>The Prophet of React</p>
-            <ul>
-                <li>Titano</li>
-                <li>Sputnik</li>
-                <li>Mars&Co</li>
-            </ul>
+            <h1>Gocho The Prophet</h1>
+            <p>Born in the center of the Universe (Madgerito)</p>
+            <ol>
+                <li>Thaiti</li>
+                <li>Thailand</li>
+                <li>Thaiwan</li>
+            </ol>
         </div>
     );
 };
