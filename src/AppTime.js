@@ -5,24 +5,24 @@ const AppTime = () => {
     const hours = date.getHours();
     let timeOfDay = "";
 
+    const styles = {
+        fontSize: 200,
+    };
+
     if (hours < 12 ) {
         timeOfDay = "morning";
+        styles.color = "green";
     } else if (hours >= 12 && hours < 17) {
         timeOfDay = "afternoon";
+        styles.color = "yellow";
     } else {
         timeOfDay = "night";
+        styles.color = "blue";
     }
 
+    
     return (
-        <h1 style={
-            {
-                color: "orange",
-                backgroundColor: "blueviolet"
-            }
-        }
-        >
-            Good {timeOfDay}!
-        </h1>
+        <h1 style={styles}>Good {timeOfDay}!</h1>
     );
 };
 
