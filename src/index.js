@@ -7,6 +7,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import AppTime from "./AppTime";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<AppTime />, document.getElementById("root"));
