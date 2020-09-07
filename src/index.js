@@ -13,6 +13,6 @@ make the TodoItem more flexible)
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import CatApp from "./CatApp";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<CatApp />, document.getElementById("root"));
