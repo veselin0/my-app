@@ -1,16 +1,17 @@
 import React from "react";
 
+import TodoItem from "./TodoItem";
+
 export default function App() {
     return (
         <div>
-            <input type="checkbox" />
-            <p>Placeholder text</p>
+            <TodoItem />
 
-            <input type="checkbox" />
-            <p>Placeholder text</p>
+            <TodoItem />
 
-            <input type="checkbox" />
-            <p>Placeholder text</p>
+            <TodoItem />
+
+            <TodoItem />
         </div>
     );
 }
