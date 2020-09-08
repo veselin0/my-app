@@ -14,6 +14,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import JokeApp from "./JokeApp";
+import ProdListApp from "./ProdListApp";
 
-ReactDOM.render(<JokeApp />, document.getElementById("root"));
+ReactDOM.render(<ProdListApp />, document.getElementById("root"));
